@@ -1,0 +1,26 @@
+// Fixed base durations by the game's actual Difficulty field. No rewards,
+// requirements, unlocks, or other mission settings are changed.
+// Easy = 5 minutes; Normal = 10; Hard = 15; VeryHard = 20.
+{
+  "DT_CharacterTeamMissionDataTable": {
+    "Dungeon_Grass": { "RequiredSeconds": 300 },
+    "Dungeon_Forest": { "RequiredSeconds": 300 },
+    "Dungeon_Volcano": { "RequiredSeconds": 600 },
+    "Dungeon_Desert": { "RequiredSeconds": 600 },
+    "Dungeon_Snow": { "RequiredSeconds": 900 },
+    "Dungeon_Sakurajima": { "RequiredSeconds": 900 },
+    "Dungeon_DarkIsland": { "RequiredSeconds": 900 },
+    "Dungeon_SkyIsland": { "RequiredSeconds": 900 },
+    "Dungeon_WorldTree": { "RequiredSeconds": 900 },
+
+    "Dungeon_GrassHard": { "RequiredSeconds": 1200 },
+    "Dungeon_ForestHard": { "RequiredSeconds": 1200 },
+    "Dungeon_VolcanoHard": { "RequiredSeconds": 1200 },
+    "Dungeon_DesertHard": { "RequiredSeconds": 1200 },
+    "Dungeon_SnowHard": { "RequiredSeconds": 1200 },
+    "Dungeon_SakurajimaHard": { "RequiredSeconds": 1200 },
+    "Dungeon_DarkIslandHard": { "RequiredSeconds": 1200 },
+    "Dungeon_SkyIslandHard": { "RequiredSeconds": 1200 },
+    "Dungeon_WorldTreeHard": { "RequiredSeconds": 1200 }
+  }
+}
